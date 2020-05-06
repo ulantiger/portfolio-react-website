@@ -1,0 +1,16 @@
+.SW_block{
+    margin: 0;
+    padding: 70px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    
+    ul{
+        display: flex;
+        flex-flow: row wrap;
+        margin: 0 auto;
+        padding: 0;
+        list-style: none;
+    }
+}
+

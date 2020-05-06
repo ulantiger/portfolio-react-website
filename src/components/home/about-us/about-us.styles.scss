@@ -1,0 +1,47 @@
+.aboutus{
+    height: 747px;
+    width: 100%;
+    background: linear-gradient(#B5E0FB 0%, #EFEFEF 100%);
+    padding: 0;
+    margin: 0;
+
+    h1{
+        text-align: center;
+        padding-top: 50px;
+        color: #1479B6;
+    }
+
+    .content{
+        // background-image: url(image/mg01.png);
+        background-repeat: no-repeat;
+        background-position: center left 50px;
+        height: 100%;
+
+        .text{
+            line-height: 19px;
+            width: 40%;
+            height: 300px;
+            float: right;
+            margin: 70px;
+            // padding-top:50px;
+
+            .nospace{
+                margin: 0;
+                padding: 0;
+            }
+
+            ol{
+                margin: 0;
+                padding: 0 15px;
+            }
+
+            .logos{
+                margin-top: 40px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+
+            }
+        }
+    } 
+}

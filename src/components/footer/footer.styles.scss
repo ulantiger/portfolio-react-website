@@ -1,0 +1,61 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #fff;
+    justify-content: space-around;
+
+    .details{
+       height: 416px;
+       background: linear-gradient(-45deg, #1479B6 0%, #157AB6 50%, #69B3DF 100%); 
+       display: flex;
+       justify-content: space-around;
+       padding: 70px;
+       flex: 1 1;
+
+       .footer_card{
+           width: 32%;
+
+           .card_header{
+            //    text-align: center;
+               font-weight: 700;
+               padding-bottom: 20px;
+           }
+
+           p{
+               margin: 0;
+               padding: 0;
+           }
+
+           .icons{
+               display: flex;
+            //    justify-content: center;
+
+               .sIcons{
+                   fill: white;
+                   font-size: 32px;
+                   padding: 0px;
+                   margin: 0;
+
+               }
+            }
+            
+            .link{
+                margin: 5px;
+                text-decoration: none;
+           }
+
+           &:nth-child(2){
+               padding-left: 40px;
+           }
+        }
+    }
+    .copyright{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 76px;
+        background: #313131;
+        
+    }
+}

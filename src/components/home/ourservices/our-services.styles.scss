@@ -1,0 +1,22 @@
+.ourservice{
+    width: 100%;
+    height: 462px;
+    padding: 20px 0;
+    
+
+    .serviceList{
+        display: flex;
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    h1{
+        text-align: center;
+        color: #1479B6;
+    }
+
+    a{
+        text-decoration: none;
+        cursor: pointer;
+    }
+}

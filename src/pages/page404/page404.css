@@ -1,0 +1,10 @@
+.err404{
+    text-align: center;
+    color: #3500A0;
+    height: 100%;
+}
+
+.err404 h1{
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,22 @@
+.poster{
+    position: relative;
+    width: 100%;
+    background: linear-gradient(#006EB0 0%, #0F7FD5 100%);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+
+    img {
+        object-fit: cover;
+        opacity: 0.75;
+     }
+
+     h1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+     }
+}

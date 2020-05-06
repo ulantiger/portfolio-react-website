@@ -1,0 +1,36 @@
+.Button{
+    background-color: #ED6F2B;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    padding: 0;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgb(211, 91, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.Button:focus{
+outline: none;
+}
+
+.Button:active{
+box-shadow: inset 2px 2px 1px rgba(0,0,0,.15),
+            inset 2px 2px 4px rgba(0,0,0,.15),
+                  -2px -2px 6px rgba(255,255,255,.5),
+                  -4px -4px 6px rgba(255,255,255,.7),
+                  2px 2px 6px rgba(255,255,255,.5),
+                  4px 4px 6px rgba(255,255,255,.7);
+}
+
+.Button:disabled{
+background: #ccc;
+cursor: not-allowed;
+color: black;
+}

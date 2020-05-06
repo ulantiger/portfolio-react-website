@@ -1,0 +1,50 @@
+header{
+    width: 100%;
+    position: sticky;
+    background: white;
+    margin: 0;
+    padding: 0 80px;
+    top: 0px;
+    z-index: 99;
+    box-sizing: border-box;
+    border-bottom: 1px solid #888;
+    
+    .content{
+        width: 100%;
+        height: 130px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        .logo{
+            width: 366px;
+            height: 62px;
+            margin-right: auto;
+            cursor: pointer;
+        }
+
+        ul{
+            list-style: none;
+        }
+
+        ul .navLink{
+            text-decoration: none;
+            color: black;
+        }
+
+        li{
+            display: inline-block;
+            padding: 0 20px;
+        }
+
+        li a{
+            transition: all 0.3s ease 0s;
+        }
+
+        li a:hover{
+            color: blue;
+        }
+
+
+    }
+}
